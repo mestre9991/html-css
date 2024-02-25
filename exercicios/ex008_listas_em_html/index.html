@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icone-favorito.ico" type="image/x-icon">
+    <title>Listas OL e UL</title>
+</head>
+<body>
+    <h1>Trabalhando com listas</h1>
+    <h2>Lista Ordenada(OL)</h2>
+    <p>Sao listas em que a ordem faz diferenca</p>
+    <ol type="I">
+        <li>Acordar</li>
+        <li>Tomar um cafe da manha</li>
+    </ol>
+    <h2>Com numeracao</h2>
+    <ol type="1">
+        <li>Acordar</li>
+        <li>Tomar um cafe da manha</li>
+    </ol>
+    <h2>Listas nao ordenadas, sao aquelas que a sequencia nao faz sentido, o type pode ser circle, square ou disc</h2>
+    <ul type="disc">
+        <li>Pao</li>
+        <li>Tomate</li>
+        <li>Repolho</li>
+    </ul>
+    <h2>Listas mistas(juncao entre listas)</h2>
+    <ol type="1">
+        <li>Minhas linguagens favoritas</li>
+        <ol type="a">
+            <li>Python</li>
+            <li>Lingagem de marcacao HTML</li>
+        </ol>
+        <li>Linguagens que quero aprender</li>
+        <ol type="a">
+            <li>Java</li>
+            <li>JavaScript</li>
+            <li>Banco de dados</li>
+        </ol>
+    </ol>
+    <ol type="1">
+        <li>Minhas linguagens favoritas</li>
+        <ol type="a">
+            <li>Python</li>
+            <li>Lingagem de marcacao HTML</li>
+        </ol>
+        <li>Linguagens que quero aprender</li>
+        <ol type="a" start="3">
+            <li>Java</li>
+            <li>JavaScript</li>
+            <li>Banco de dados</li>
+        </ol>
+    </ol>
+    <ol type="1">
+        <li>Minhas linguagens favoritas</li>
+        <ul type="circle">
+            <li>Python</li>
+            <li>Lingagem de marcacao HTML</li>
+        </ul>
+        <li>Linguagens que quero aprender</li>
+        <ul type="square">
+            <li>Java</li>
+            <ul>
+                <li>Para backend em sistemas e aplicativos</li>
+            </ul>
+            <li>JavaScript</li>
+            <ul type="disc">
+                <li>Para criar aplicativos</li>
+                <li>Para criar sites</li>
+            </ul>
+            <li>Banco de dados</li>
+            <ul type="disc">
+                <li>Para tudo</li>
+            </ul>
+        </ul>
+    </ol>
+    <h2>Lista de Definicao</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcacao para o conteudo do site.</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcacao para a parte visual do site.</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programacao para a criacao de interatividade de um site(botoes, menus, animacao ao clicar em um botao, etc).</dd>
+    </dl>
+</body>
+</html>

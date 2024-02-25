@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+body{
+    background-color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+div{
+    display: inline-block;
+}
+.div1{
+    background-color: aquamarine;
+    border: 1px solid black;
+    text-align: center;
+    height: 20px;
+    width: 200px;
+}
+.div1:hover{
+    color: blueviolet;
+}
+.div2:hover{
+    color: blueviolet;
+}
+.div2{
+    background-color: aquamarine;
+    border: 1px solid black;
+    text-align: center;
+    height: 20px;
+    width: 200px;
+}
+.div2 > p{
+    display: none;
+}
+.div2:hover >p{
+    display: block;
+    color: brown;
+    background-color: bisque;
+    border: 1px solid black;
+    text-align: center;
+    height: 20px;
+    width: 200px;
+}

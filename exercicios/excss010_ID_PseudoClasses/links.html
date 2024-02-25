@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: red;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        a:visited{
+            color: darkslategray;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: black;
+        }
+        a:active{
+            color: yellow;
+        }
+        a::after{
+            content: "[Isto eh um link]";
+            color: aquamarine;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/watch?v=FdE5G95B7Mg" target="_blank">Repositorio do Github</a></li>
+        <li><a href="https://www.youtube.com/watch?v=i7L19SOqbNM&t=1s" target="_blank">Canal do YouTube</a></li>
+        <li><a href="https://www.youtube.com/watch?v=OzUnqQk4eOg" target="_blank">Site Curso em Video</a></li>
+    </ul>
+</body>
+</html>

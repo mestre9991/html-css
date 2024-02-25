@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icone-favorito.ico" type="image/x-icon">
+    <title>Desafio Video</title>
+
+    <style>
+        body{
+            background-color: black;
+        }
+        .video-container {
+            display: flex;
+            justify-content: space-around;
+            margin-right: 20%; /* Ajuste a margem entre os vídeos conforme necessário */
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+
+        .video-container iframe {
+            width: 200%; /* tamanho da resolucao */
+            height: 315px; /* tamanho do video */
+            margin-bottom: 20px; /* Espaço entre os vídeos de cima ou embaixo*/
+            box-sizing: border-box; /* Evita que a margem seja adicionada ao tamanho total */
+        }
+
+        .video-overlay {  /* A classe video overlay torna qualquer video na pagina clicavel */
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>VIDEOS LEGAIS PARA ASSISTIR</h1>
+
+    <div class="video-container">
+        <div style="position: relative;">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/i7L19SOqbNM?si=CIe0wuOPziyK7fZr&amp;start=1" title="Vídeo Interessante" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <a href="pag002.html" target="_self" class="video-overlay"></a> 
+        </div>
+
+        <div style="position: relative;">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/FdE5G95B7Mg?si=46UagrdsouYRZU1d" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <a href="pag003.html" target="_self" class="video-overlay"></a>
+        </div>
+    </div>
+    <div class="video-container">
+        <div style="position: relative;">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/P4Ru46-zjck?si=pqI5is9UY3psqp2V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <a href="pag004.html" target="_self" class="video-overlay"></a>
+        </div>  
+
+        <div style="position: relative;">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/U0kxkksURss?si=l2W0vgLBvpix32zH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <a href="pag005.html" target="_self" class="video-overlay"></a>
+        </div>
+    </div>
+</body>
+</html>

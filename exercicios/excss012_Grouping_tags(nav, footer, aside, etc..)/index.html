@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            background-color: gray;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header{
+            background-color: whitesmoke;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.596);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 1px;
+        }
+        footer > p{
+            margin: 1px;
+        }
+        main{
+            background-color: whitesmoke;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.596);
+        }
+        article{
+            background-color: rgba(250, 235, 215, 0.432);
+        }
+        article > aside{
+            background-color: rgba(184, 173, 158, 0.342);
+        }
+        nav{
+            background-color: rgb(223, 209, 192);
+            padding: 2px;
+            margin: 2px;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.596);
+        }
+        nav > a{
+            padding: 1px;
+            margin: 1px;
+            text-decoration: none;
+            font-weight: bold;
+            color: white;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            color: red;
+        }
+        section#noticias{
+            font-weight: bold;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            border-radius: 50%;
+            background-color: white;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.596);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>   
+    <main>   
+        <section id="noticias"> <p>Esporte, Politica e Tecnologia</p></section>
+        <section id="assuntos">
+            <h1>Noticias sobre o Brasil</h1>
+            <article><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, quasi impedit quam aperiam laboriosam magni dolor enim itaque deserunt obcaecati corporis nisi nulla, rem debitis saepe! Cupiditate ipsam necessitatibus sit!</p>
+            <p>Sao as tags section, article, nav, aside, footer, header,</p>
+            <aside>
+                <p>Este artigo foi escrito por Fulado da Silva</p>
+            </aside>
+        </article>
+        </section>     
+    </main>
+    <footer><p>Este site foi desenvolvido por ...</p></footer>
+    <div id="bola"></div>
+</body>
+</html>

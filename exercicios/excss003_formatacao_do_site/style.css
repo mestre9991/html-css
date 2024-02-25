@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+*{
+    /*height: 100%;*/
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-image: linear-gradient(to right, #D8FFDB, #008F8C, #015958, #023535);
+}
+main{
+    background-color:#C7FFED ;
+    width: 600px; /*tamanho do main*/
+    padding: 10px; /*distancia do texto a borda*/
+    margin: auto; /*auto(automaticamente centralizar o main na pagina)*/
+    border-radius: 10px; /*arredondamento das bordas*/
+    box-shadow: 5px 5px #008F8C; /*sombra da borda, largura pra direita, largura pra baixo, cor(pode selecionar a cor mais escura e arrastar pra baixo pra criar uma monocromia, pode tambem mexer na barra de transparencia se quiser (ABAIXO FOI UTILIZADO ESSA TECNICA)*/
+}
+h1{
+    color: #023535;
+    text-align: center; /*posicao do texto*/
+    text-shadow: 1px 1px 2px #022727; /*sombra do texto, tamanho pra direita, tamanho pra baixo, cor*/
+}
+h2{
+    color: #015958;
+    text-align: justify; /*posicao do texto*/
+    text-shadow: 1px 1px 2px #013f3e; /*sombra do texto, tamanho pra direita, tamanho pra baixo, cor*/
+}
+h3{
+    color: #008F8C;
+    text-align: justify; /*posicao do texto*/
+    text-shadow: 1px 1px 2px #01706e; /*sombra do texto, tamanho pra direita, tamanho pra baixo, cor*/
+}
+p{
+    text-align: justify;
+}
