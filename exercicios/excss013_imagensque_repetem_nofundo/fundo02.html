@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando fundo dinamico</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .quadrado{
+            height: 200px;
+            margin: 10px;
+            border: 2px solid black;
+            border-radius: 10px;
+            background-image: url(imagens/wallpaper003.jpg);
+        }
+        div#d01{
+            background-position: left top;
+        }
+        div#d02{
+            background-position: left center;
+        }
+        div#d03{
+            background-position: right bottom;
+        }
+        div#d04{
+            background-position: center center;
+        }
+    </style>
+</head>
+<body>
+    <div class="quadrado" id="d01"></div>
+    <div class="quadrado" id="d02"></div>
+    <div class="quadrado" id="d03"></div>
+    <div class="quadrado" id="d04"></div>
+</body>
+</html>

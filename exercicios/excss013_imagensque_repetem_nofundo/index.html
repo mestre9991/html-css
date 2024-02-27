@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens de fundo dinamicas</title>
+    <style>
+        body{
+            background-image: url(imagens/wallpaper004.jpg);
+        }
+        .quadrado{
+            display: inline-block;
+            border: 2px solid black;
+            border-radius: 10px;
+            width: 300px;
+            height: 300px;
+            background-color: gray;
+        }
+        div#d01{
+            background-color: aquamarine;
+        }
+        div#d02{
+            background-image: linear-gradient(to bottom, yellow, red);
+        }
+        div#d03{
+            background-image: url(imagens/pattern001.png);
+        }
+        div#d04{
+            background-image: url(imagens/pattern002.png)
+        }
+        div#d05{
+            background-image: url(imagens/pattern003.png);
+        }
+    </style>
+</head>
+<body>
+    <div class="quadrado" id="d01"></div>
+    <div class="quadrado" id="d02"></div>
+    <div class="quadrado" id="d03"></div>
+    <div class="quadrado" id="d04"></div>
+    <div class="quadrado" id="d05"></div>
+</body>
+</html>
